@@ -10,7 +10,7 @@ h1, h2, h3 {
 }
 
 body {
-    background-image: url('../img/background2.jpeg');
+    background-image: url('../img/background.jpeg');
     background-size: cover;
     background-attachment: fixed;
 }
