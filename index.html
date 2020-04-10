@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Uppgift 4</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+	<nav id="main-nav">
+		<h1>My top 3 Beers from BrewDog</h1>
+		<button onclick="display(0)">Divine Rebel</button>
+		<button onclick="display(1)">Storm</button>
+		<button onclick="display(2)">The End of History</button>
+	</nav>
+
+	<main>
+		<h2 id="name"></h2>
+		<div class="specs">
+			<p class="" id="abv"></p>
+			<p class="" id="brewed"></p>
+		</div>
+		<figure class="imgWrap">
+			<img id="img" src="#" alt="">
+		</figure>
+		<div class="infoWrap">
+			<section class="info">
+				<h3>Tagline</h3>
+				<p id="tagline"></p>
+			</section>
+			<section class="info">
+				<h3>Description</h3>
+				<p id="description"></p>
+			</section>
+			<section class="info">
+				<h3>Food Pairings</h3>
+				<p id="foodPairing"></p>
+			</section>
+		</div>
+	</main>
+
+	<footer>
+		<p>Made by Papa Brogeby</p>
+	</footer>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
